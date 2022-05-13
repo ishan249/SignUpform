@@ -1,0 +1,62 @@
+.main-form {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: rgb(81, 167, 220);
+    font-size: 30px;
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.input-form {
+    font-family: monospace;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 500px;
+}
+
+form {
+    text-align: center;
+    padding: 10px;
+}
+
+label {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+#submit {
+    font-family: monospace;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(81, 167, 220);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+#submit:hover {
+    color: white;
+    background-color: rgb(6, 57, 242);
+
+}
+
+.warning {
+    font-family: monospace;
+    color: white;
+}
