@@ -8,7 +8,7 @@ function checkPassword(e) {
     var email = document.getElementById('email').value;
     var userName = document.getElementById('username').value;
     if ((passLength.length) > 10) {
-        alert('*password should not contain more than 10 characters');
+        alert('Password should not contain more than 10 characters');
     }
     else if ((passLength.length) <= 10) {
         if (passLength != pass1Length) {
